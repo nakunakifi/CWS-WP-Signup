@@ -1,0 +1,68 @@
+.cws-form label {
+    display: inline-block;
+    float: left;
+    margin-top: 3px;
+    padding: 3px;
+    width: 100px;
+}
+input.cws-submit {
+    height: 30px !important;
+    margin-left: 110px !important;
+/*    padding-left: 25px !important;
+*/    width: 85px !important;
+}
+
+ul.parsley-error-list {
+    font-size: 11px;
+    list-style-type: none;
+    margin: 2px;
+}
+
+ul.parsley-error-list li {
+    line-height: 11px;
+    margin-left: 110px !important;
+    color: #D45252;
+}
+.cws-form li {
+    padding: 12px;
+    position: relative;
+    list-style: none !important;
+    background: none;   
+/*    height: 45px;*/
+}
+.cws-form input:required {
+    background: url("../images/red_asterisk.png") no-repeat scroll 98% center #FFFFFF;
+}
+.cws-form input:required:valid {
+    background: url("../images/valid.png") no-repeat scroll 98% center #FFFFFF;
+    border-color: #28921F;
+    box-shadow: 0 0 5px #5CD053;
+}
+
+.cws-form input:focus:invalid {
+    background: url("../images/invalid.png") no-repeat scroll 98% center #FFFFFF;
+    border-color: #B03535;
+    box-shadow: 0 0 5px #D45252;
+}
+
+.cws-form input[type=text], .cws-form input[type=email] {
+    border: 1px solid #AAAAAA;
+    border-radius: 2px;
+    box-shadow: 0 0 3px #CCCCCC, 0 10px 15px #EEEEEE inset;
+/*    padding-right: 30px;
+*/    transition: padding 0.25s ease 0s;
+    height: 35px;
+    padding: 5px 8px;
+    width: 220px;
+    margin-bottom: 0 !important;
+}
+.cws-form textarea {
+    border: 1px solid #AAAAAA;
+    border-radius: 2px;
+    box-shadow: 0 0 3px #CCCCCC, 0 10px 15px #EEEEEE inset;
+/*    padding-right: 30px;
+*/    transition: padding 0.25s ease 0s;
+	height: 110px;    padding: 5px 8px;
+    width: 220px;
+    margin-bottom: 0 !important;
+}
