@@ -1,11 +1,11 @@
 # CWS Signup
 
-A WordPress Plugin that has shortcodes to inject a signup for to post 
+A WordPress Plugin that has shortcodes to inject a signup form to a post 
 
 ## Features
 
 * Simple Shortcodes
-* Client side validation with Parsley
+* Client side validation with parsley.js
 * Customisable POST URL
 
 
